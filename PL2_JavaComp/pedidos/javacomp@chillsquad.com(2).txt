@@ -1,0 +1,28 @@
+RECIBO DE COMPRA
+** 2022-05-27 **
+
+** DATOS DEL CLIENTE **
+
+Nombre: Chill Squad Inc.
+Correo: javacomp@chillsquad.com
+Dirección: José María Pereda, 5
+	Código Postal: 28805
+	Ciudad: Alcalá de Henares
+Teléfono: 911547852
+Tarjeta: **** **** **** 9795
+
+** DATOS DE PRODUCTOS **
+
+HOLLOW KNIGHT PS4:
+Categoría: Consola y videojuegos
+Precio: 29.95€ (29.95/ud.)
+Cantidad: 1
+Categoría: Consola y videojuegos
+
+** RECUENTO DE GASTOS **
+Hollow Knight PS4: 29.95€
+Envío: 5€
+---------------------------
+Total: 34.95€
+
+GRACIAS POR COMPRAR EN JAVACOMP

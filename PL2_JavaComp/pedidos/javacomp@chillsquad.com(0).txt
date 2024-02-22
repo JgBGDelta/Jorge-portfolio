@@ -1,0 +1,36 @@
+RECIBO DE COMPRA
+** 2022-05-27 **
+
+** DATOS DEL CLIENTE **
+
+Nombre: Chill Squad Inc.
+Correo: javacomp@chillsquad.com
+Dirección: José María Pereda, 5
+	Código Postal: 28805
+	Ciudad: Alcalá de Henares
+Teléfono: 911547852
+Tarjeta: **** **** **** 9795
+
+** DATOS DE PRODUCTOS **
+
+WHATSAPP 2:
+Categoría: Móviles y telefonía
+Precio: 5.0€ (5.0/ud.)
+
+IPHONE 13:
+Categoría: Móviles y telefonía
+Precio: 1229.0€ (1229.0/ud.)
+
+HOLLOW KNIGHT PS4:
+Categoría: Consola y videojuegos
+Precio: 89.85€ (29.95/ud.)
+
+** RECUENTO DE GASTOS **
+Whatsapp 2: 5.0€
+Iphone 13: 1229.0€
+Hollow Knight PS4: 89.85€
+Envío: 5€
+---------------------------
+Total: 1338.85€
+
+GRACIAS POR COMPRAR EN JAVACOMP

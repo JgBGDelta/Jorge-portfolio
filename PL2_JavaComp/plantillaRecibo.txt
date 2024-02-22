@@ -1,0 +1,31 @@
+RECIBO DE COMPRA
+** XX-XX-XXXX ** 
+
+** DATOS DEL CLIENTE **
+
+Nombre: 
+Correo:
+Dirección:
+	-Código Postal: XXXXX
+	-Ciudad: 
+Teléfono: XXX XX XX XX
+Tarjeta: **** **** **** XXXX
+
+** DATOS DE PRODUCTOS **
+
+PRODUCTO1:
+Categoría:
+Precio: xx€ (xx€/ud.)
+
+PRODUCTO2:
+Categoría:
+Precio: xx€ (xx€/ud.)
+
+** RECUENTO DE GASTOS **
+Producto1		xx€
+Producto2		xx€
+Envío			5€
+---------------------------
+Total			XX€
+
+GRACIAS POR COMPRAR EN JAVACOMP

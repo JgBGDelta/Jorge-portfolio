@@ -1,0 +1,28 @@
+RECIBO DE COMPRA
+** 2022-05-28 **
+
+** DATOS DEL CLIENTE **
+
+Nombre: Chill Squad Inc.
+Correo: javacomp@chillsquad.com
+Dirección: José María Pereda, 5
+	Código Postal: 28805
+	Ciudad: Alcalá de Henares
+Teléfono: 911547852
+Tarjeta: **** **** **** 9795
+
+** DATOS DE PRODUCTOS **
+
+MSI GEFORCE RTX 3090 TI:
+Categoría: Componentes
+Precio: 2104.25€ (2104.25/ud.)
+Cantidad: 1
+Categoría: Componentes
+
+** RECUENTO DE GASTOS **
+MSI GeForce RTX 3090 Ti: 2104.25€
+Envío: 5€
+---------------------------
+Total: 2109.25€
+
+GRACIAS POR COMPRAR EN JAVACOMP
