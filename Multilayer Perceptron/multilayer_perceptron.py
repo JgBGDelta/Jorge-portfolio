@@ -10,15 +10,15 @@ network_structure = [784,16,16,10]
 learning_rate = 0.1
 dynamic_learning_rate = True
 stochastic = True
-epochs = 10
+epochs = 3
 activation_function = "sigmoid" #sigmoid/relu
 # Si save_name == "" no se guarda el modelo
 # Si save_name == "descriptive" el nombre del modelo es la info de entrenamiento del modelo
-save_name = 'descriptive' 
+save_name = '' 
 # Si model_to_load_name == "" no se carga el modelo
-model_to_load_name = ''
-train_model = True
-visualize_results = False
+model_to_load_name = 'Stochastic_LR_0.1_DynamicLR_Act_sigmoid_Epochs10'
+train_model = False
+visualize_results = True
 
 
 #region Tests (no testing)
@@ -384,7 +384,7 @@ def save(layers,model_name="model"):
             f"Epochs: {epochs}"
         )
         file.write(training_info + "\n")
-        file.write("Activation Function: " + ("S" if activation_function=="sigmoid" else "R")+ "\n")
+        file.write(f"Activation Function:{activation_function}\n")
         # Escribir la estructura de capas en la segunda línea
         layers_structure = ",".join(str(n) for n in network_structure)
         file.write(layers_structure + "\n")
@@ -409,7 +409,7 @@ def load(model_name="model"):
     with open(f"{model_name}.txt", "r") as file:
         # Ignorar la info de entrenamiento:
         file.readline()
-        activation_f = ("sigmoid" if file.readline().removeprefix("Activation Function: ")== "S" else "relu")
+        activation_f = file.readline().split(":")[1].strip()
         # Leer la estructura de capas
         layers_structure = file.readline().strip().split(",")
         
@@ -440,10 +440,12 @@ def dRelu(x):
     return np.where(x <= 0, 0, 1)
 
 def Sigmoid(x):
-    return 1/(1+np.exp(-x))
+    x = np.clip(x, -40, 40) #Clip para evitar overflow en ReLU
+    return 1.0/(1.0+np.exp(-x))
 
 def dSigmoid(x):
-    return Sigmoid(x)*(1-Sigmoid(x))
+    s = Sigmoid(x)
+    return s*(1.0-s)
 
 def get_error(output,expected_output):
     """ Devuelve la suma de los errores cuadráticos entre el array output de la red neuronal
